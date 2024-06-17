@@ -1,0 +1,32 @@
+import React from "react";
+
+const NavBar = () => {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <a href="#home" className=".nav-item">
+            <span>{" Home"}</span>
+          </a>
+        </li>
+        <li>
+          <a href="#expertise" className=".nav-item">
+            <span>{" My Skills"}</span>
+          </a>
+        </li>
+        <li>
+          <a href="#experience" className=".nav-item">
+            <span>{" My Projects"}</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" className=".nav-item">
+            <span>{" Contact"}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+export default NavBar;

@@ -1,0 +1,26 @@
+/* src/components/Home.css */
+
+.home-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.name {
+  font-size: 9em;
+  color: white;
+  margin-top: 0;
+  font-family:Arial, sans-serif;
+  margin-bottom: 40px;
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+}
+
+.typing-effect {
+  font-size: 1.5em;
+  color: white;
+}
